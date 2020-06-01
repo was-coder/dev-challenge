@@ -1,0 +1,70 @@
+@media only screen and (min-width:700px) {
+    #my-img {
+        height: 20%;
+        margin-top: 20vh;
+        border: 5px solid #fff;
+        width: 50%;
+    }
+
+    #img-p {
+        display: none;
+    }
+
+    .for-link {
+        text-align: end;
+        margin-right: 10px;
+    }
+
+    input[type="submit"] {
+        margin-top: 20px;
+    }
+
+    .second-section {
+        margin-left: 70px;
+    }
+
+    #link-hr {
+        display: none;
+    }
+
+    .grid-all-p {
+        text-align: center;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    #grid-p {
+        font-size: 25px;
+        margin: 50px 0 0 20px;
+        text-transform: capitalize;
+        font-weight: bolder;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    #grid-p {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:970px) {
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 30% 70%;
+
+    }
+    .first-section {
+        min-height: 100vh;
+    }
+
+    #my-img {
+        height: 40vh;
+        margin-top: 20vh;
+        border: 5px solid #fff;
+        width: 90%;
+    }
+    
+    input {
+        width: 90%;
+    }   
+}

@@ -1,0 +1,117 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: monospace;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.first-section {
+    background-color: lightgreen;
+    min-height: 80vh;
+}
+
+.sty-img {
+    text-align: center;
+}
+
+#my-img {
+    border: 5px solid #fff;
+    height: 50vh;
+    width: 100%;
+}
+
+#img-p {
+    font-size: 25px;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+input {
+    width: 50%;
+    height:50px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+input:hover {
+    background-color: rgb(34, 34, 36);
+    border: 2px solid rgb(34, 34, 36);
+    color: #fff;
+}
+
+button:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.second-section {
+    margin-top:20px;
+    min-height: 70vh;
+}
+
+.for-link {
+    text-align: center;
+}
+
+.for-link a {
+    color:rgb(19, 19, 19);
+    font-weight: bold;
+}
+
+.for-link a:hover {
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+
+span {
+    color: rgb(161, 161, 12);
+}
+
+span:hover {
+    color: rgb(161, 161, 12);
+}
+
+.grid-all-p {
+    margin: 20px 0 0 10px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:0.5em;
+}
+
+
+.second-p {
+    background-color:gray;
+    width: 100%;
+    padding-left: 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    height: 30px;
+    color: #fff;
+}
+
+#flex-hr {
+    background-color: green;
+    height: 3px;
+    width: 95%;
+    
+}
+
+.grid-style {
+    display: flex;
+}
+
+.font-link {
+    border: 1px solid green;
+    border-radius:50%;
+    margin-left: 20px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.font-i {
+    min-height: 50px;
+}
